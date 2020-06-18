@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'ClearSans-Bold';
+  src: url('ClearSans-Bold.eot');
+  src: url('ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Bold.ttf') format('truetype'),
+       url('ClearSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClearSans-Italic';
+  src: url('ClearSans-Italic.eot');
+  src: url('ClearSans-Italic.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Italic.ttf') format('truetype'),
+       url('ClearSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans-BoldItalic';
+  src: url('ClearSans-BoldItalic.eot');
+  src: url('ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-BoldItalic.ttf') format('truetype'),
+       url('ClearSans-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans-Light';
+  src: url('ClearSans-Light.eot');
+  src: url('ClearSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Light.ttf') format('truetype'),
+       url('ClearSans-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans-Medium';
+  src: url('ClearSans-Medium.eot');
+  src: url('ClearSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Medium.ttf') format('truetype'),
+       url('ClearSans-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans-MediumItalic';
+  src: url('ClearSans-MediumItalic.eot');
+  src: url('ClearSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-MediumItalic.ttf') format('truetype'),
+       url('ClearSans-MediumItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ClearSans-Regular';
+  src: url('ClearSans-Regular.eot');
+  src: url('ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Regular.ttf') format('truetype'),
+       url('ClearSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans-Thin';
+  src: url('ClearSans-Thin.eot');
+  src: url('ClearSans-Thin.eot?#iefix') format('embedded-opentype'),
+       url('ClearSans-Thin.ttf') format('truetype'),
+       url('ClearSans-Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
