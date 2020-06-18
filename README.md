@@ -1,1 +1,1 @@
-<a href='https://aslussion.github.io/pizza/'>Link to the page</a>
+<a href='https://aslussion.github.io/pizza/dist/'>Link to the page</a>
