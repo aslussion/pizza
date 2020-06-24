@@ -24,16 +24,17 @@ const HeaderCart = (p) => {
   const cartProducts = p.cartProducts,
   products = p.products;
   let cnt=0,
-  sum=0;
+  sum=0,
+  price;
   for(let cartProductId in cartProducts){
     if(products[cartProductId]){
       cnt++;
-      sum += products[cartProductId].price * cartProducts[cartProductId];
+      price = p.calcPrice(products[cartProductId].price,p.coef);
+      sum += price * cartProducts[cartProductId];
     }
   }
   const word = (cnt==1) ? 'product' : 'products';
 
-  sum = p.calcPrice(sum,p.coef);
   return( 
         <div className="fcontact text-left">
             <div className="fcontact-icon"><div className="icon-hCart"></div></div>

@@ -161,11 +161,13 @@ const PageCart = (p) => {
 
     //printing products
     //and calcing products sum
+    let price;
     const cartProducts = Object.entries(p.cartProducts).map(([id, el]) => {
       if(p.products[id]){
         cartHasProducts = true;
         cnt++;
-        productsSum += p.products[id].price * p.cartProducts[id];
+        price = p.calcPrice(p.products[id].price,p.coef);
+        productsSum += price * p.cartProducts[id];
         return <Product key={id} id={id} cartProduct={el} product={p.products[id]} p={p}   />;   
       }
     });
@@ -177,14 +179,10 @@ const PageCart = (p) => {
     		break;
     	}
     }
+    shippingSum = p.calcPrice(shippingSum,p.coef);
     
     //total sum
     totalSum = productsSum + shippingSum;
-
-    //calc to active currency
-    productsSum = p.calcPrice(productsSum,p.coef);
-    shippingSum = p.calcPrice(shippingSum,p.coef);
-    totalSum = p.calcPrice(totalSum,p.coef);
 
     if(cartHasProducts)
       return (
